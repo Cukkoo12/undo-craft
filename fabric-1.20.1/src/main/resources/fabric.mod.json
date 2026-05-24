@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "undo-craft",
+  "version": "${version}",
+  "name": "Undo Craft",
+  "description": "Undo your last crafting action!",
+  "authors": ["cukkoo"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/undo-craft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.cukkoo.undocraft.UndoCraftClient"
+    ],
+    "main": [
+      "com.cukkoo.undocraft.UndoCraftMain"
+    ],
+    "modmenu": [
+      "com.cukkoo.undocraft.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "undo-craft.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}

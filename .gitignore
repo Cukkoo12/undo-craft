@@ -1,0 +1,63 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# IDE - Eclipse
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+bin/
+*.launch
+
+# IDE - VS Code
+.vscode/
+
+# Java
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Minecraft runs
+run/
+runs/
+run-data/
+run-client/
+run-server/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Video files (used for generating demo.gif)
+kayıt*.mp4
+
+# Local configuration
+local.properties
+
+# Build output logs
+build_*.txt

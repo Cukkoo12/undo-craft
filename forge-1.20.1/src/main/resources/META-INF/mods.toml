@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All-Rights-Reserved"
+
+[[mods]]
+modId="undo_craft"
+version="${version}"
+displayName="Undo Craft"
+description="Undo your last crafting action!"
+authors="cukkoo"
+logoFile="assets/undo-craft/icon.png"
+
+[[dependencies.undo_craft]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.undo_craft]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1]"
+ordering="NONE"
+side="BOTH"

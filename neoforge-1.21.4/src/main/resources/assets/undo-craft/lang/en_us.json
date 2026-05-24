@@ -1,0 +1,16 @@
+{
+  "undocraft.button.undo": "Undo",
+  "undocraft.message.nothing_to_undo": "Nothing to undo",
+  "undocraft.message.undo_success": "Crafting undone",
+  "undocraft.message.items_missing": "Can't undo — items no longer in inventory",
+  "undocraft.config.title": "Undo Craft Configuration",
+  "undocraft.config.crafting_table": "Crafting Table Button Offset",
+  "undocraft.config.inventory": "Survival Inventory Button Offset",
+  "undocraft.config.x": "X Offset",
+  "undocraft.config.y": "Y Offset",
+  "undocraft.config.help": "Tip: You can manually set the coordinates or use visual dragging!",
+  "undocraft.config.visual": "Visual Reposition...",
+  "undocraft.config.positioning.crafting": "Reposition Crafting Table Button",
+  "undocraft.config.positioning.inventory": "Reposition Inventory Button",
+  "undocraft.config.positioning.instruction": "Click and drag the Undo button ( ↶ ) to reposition it!"
+}

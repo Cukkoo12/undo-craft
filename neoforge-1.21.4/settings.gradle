@@ -1,0 +1,11 @@
+pluginManagement {
+    repositories {
+        maven {
+            name = 'NeoForge'
+            url = 'https://maven.neoforged.net/releases'
+        }
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+rootProject.name = "undo-craft-1.21.4-neoforge"

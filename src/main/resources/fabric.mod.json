@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "undo-craft",
+  "version": "${version}",
+  "name": "Undo Craft",
+  "description": "Undo your last crafting actions with CTRL+Z or a button in the crafting table.",
+  "authors": ["Cukkoo"],
+  "contact": { "sources": "https://github.com/Cukkoo12/undo-craft" },
+  "license": "MIT",
+  "icon": "assets/undo-craft/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": ["com.cukkoo.undocraft.UndoCraftClient"],
+    "main": ["com.cukkoo.undocraft.UndoCraftMain"],
+    "modmenu": ["com.cukkoo.undocraft.ModMenuIntegration"]
+  },
+  "mixins": ["undo-craft.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "fabric-api": ">=0.145.4",
+    "minecraft": ">=26.1.0"
+  }
+}

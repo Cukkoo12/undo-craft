@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.cukkoo.undocraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CraftingMenuMixin",
+    "AbstractContainerMenuMixin"
+  ],
+  "client": [
+    "CraftingScreenMixin",
+    "InventoryScreenMixin",
+    "RecipeBookScreenKeyMixin",
+    "RecipeBookScreenRenderMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

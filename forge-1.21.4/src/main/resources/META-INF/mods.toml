@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[54,)"
+license="MIT License"
+
+[[mods]]
+modId="undocraft"
+version="${mod_version}"
+displayName="Undo Craft"
+description="Undo your last crafting actions with CTRL+Z or a button in the crafting table."
+logoFile="assets/undo-craft/icon.png"
+credits="Cukkoo"
+authors="Cukkoo"
+
+[[mixins]]
+config="undo-craft.mixins.json"
+
+[[dependencies.undocraft]]
+modId="forge"
+mandatory=true
+versionRange="[54,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.undocraft]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21.4]"
+ordering="NONE"
+side="BOTH"

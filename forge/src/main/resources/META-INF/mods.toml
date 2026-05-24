@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT License"
+
+[[mods]]
+modId="undocraft"
+version="${mod_version}"
+displayName="Undo Craft"
+description="Undo your last crafting actions with CTRL+Z or a button in the crafting table."
+logoFile="assets/undo-craft/icon.png"
+credits="Cukkoo"
+authors="Cukkoo"

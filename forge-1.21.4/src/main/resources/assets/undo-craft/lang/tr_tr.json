@@ -1,0 +1,16 @@
+{
+  "undocraft.button.undo": "Geri Al",
+  "undocraft.message.nothing_to_undo": "Geri alınacak bir şey yok",
+  "undocraft.message.undo_success": "Üretim geri alındı",
+  "undocraft.message.items_missing": "Geri alınamıyor — eşyalar artık envanterde değil",
+  "undocraft.config.title": "Undo Craft Yapılandırması",
+  "undocraft.config.crafting_table": "Çalışma Masası Buton Kayması",
+  "undocraft.config.inventory": "Envanter Buton Kayması",
+  "undocraft.config.x": "X Koordinatı",
+  "undocraft.config.y": "Y Koordinatı",
+  "undocraft.config.help": "İpucu: Koordinatları elle girebilir veya sürükleyip ayarlayabilirsiniz!",
+  "undocraft.config.visual": "Sürükleyip Ayarla...",
+  "undocraft.config.positioning.crafting": "Çalışma Masası Butonunu Konumlandır",
+  "undocraft.config.positioning.inventory": "Envanter Butonunu Konumlandır",
+  "undocraft.config.positioning.instruction": "Konumlandırmak için Geri Al butonunu ( ↶ ) sürükleyip bırakın!"
+}
