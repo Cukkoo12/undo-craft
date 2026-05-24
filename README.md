@@ -1,7 +1,7 @@
 # 🔄 Undo Craft Mod
 
 <p align="center">
-  <img src="demo.gif" alt="Undo Craft Mod Demo" width="600px"/>
+  <img src="demo.gif?v=2" alt="Undo Craft Mod Demo" width="600px"/>
 </p>
 
 <p align="center">
